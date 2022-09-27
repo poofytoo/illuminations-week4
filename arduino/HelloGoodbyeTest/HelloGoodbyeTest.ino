@@ -1,0 +1,16 @@
+
+// the setup routine runs once when you press reset:
+void setup() {
+  // initialize serial communication at 9600 bits per second:
+  Serial.begin(9600);
+  // make the pushbutton's pin an input:
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  Serial.println("hello");
+  delay(500);
+  Serial.println("goodbye");
+ 
+  delay(2000);
+}

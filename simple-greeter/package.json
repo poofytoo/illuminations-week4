@@ -1,0 +1,15 @@
+{
+  "name": "node-serial",
+  "version": "1.0.0",
+  "description": "A NodeJS to Serial Demo for the Illuminations Seminar",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Victor Hung",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^10.4.0"
+  },
+  "type": "module" 
+}
