@@ -9,7 +9,7 @@ const port = new SerialPort({
 prompt.start();
 
 while (true) {
-  const { hello } = await prompt.get("hello");
-  await port.write(hello);
+  const { command } = await prompt.get("command");
+  await port.write(command);
 }
 
